@@ -1,0 +1,32 @@
+{
+  "name": "mobiletim",
+  "version": "1.0.0",
+  "description": "Simple module to retrieve datas of your promotions by TIM using your mobile connection",
+  "main": "index.js",
+  "bin": {
+    "mobiletim": "mobiletim.js"
+  },
+  "dependencies": {
+    "tough-cookie": "^0.12.1",
+    "request": "^2.53.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dlion/mobiletim.git"
+  },
+  "keywords": [
+    "mobile",
+    "tim",
+    "traffico"
+  ],
+  "author": "Domenico Luciani aka DLion (domenicoleoneluciani@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dlion/mobiletim/issues"
+  },
+  "homepage": "https://github.com/dlion/mobiletim"
+}
