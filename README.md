@@ -5,11 +5,20 @@ A simple script to retrive datas of your promotion by TIM using your mobile conn
 ## Mobile Connection
 First of all you have to connect to internet using your mobile connection. (usb tethering, wifi router,etc.)
 
-## Install
+### Using NPM
+
+## Install 
 `npm install mobiletim -g`
 
 ## Usage
 `mobiletim`
+
+### From Github
+`git clone https://github.com/dlion/mobiletim`
+
+`cd mobiletim/`
+
+`node index.js`
 
 ## Author
 Domenico Luciani aka DLion
