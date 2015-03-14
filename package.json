@@ -1,6 +1,6 @@
 {
   "name": "mobiletim",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple module to retrieve datas of your promotions by TIM using your mobile connection",
   "main": "index.js",
   "bin": {
