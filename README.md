@@ -20,6 +20,9 @@ First of all you have to connect to internet using your mobile connection. (usb 
 
 `node index.js`
 
+## Screenshot
+![screenshot](http://i.imgur.com/uUP7v4G.png)
+
 ## Author
 Domenico Luciani aka DLion
 
