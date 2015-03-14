@@ -1,10 +1,10 @@
 {
   "name": "mobiletim",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple module to retrieve datas of your promotions by TIM using your mobile connection",
   "main": "index.js",
   "bin": {
-    "mobiletim": "mobiletim.js"
+    "mobiletim": "./bin/mobiletim.js"
   },
   "dependencies": {
     "tough-cookie": "^0.12.1",
