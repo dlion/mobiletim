@@ -1,6 +1,6 @@
 # mobiletim
 
-A simple script to retrive datas of your promotion by TIM using your mobile connection.
+A simple script to retrive data of your promotions provided by TIM using your mobile connection.
 
 ## Mobile Connection
 First of all you have to connect to internet using your mobile connection. (usb tethering, wifi router,etc.)
@@ -21,7 +21,7 @@ First of all you have to connect to internet using your mobile connection. (usb 
 `node index.js`
 
 ## Screenshot
-![screenshot](http://i.imgur.com/uUP7v4G.png)
+![screenshot](http://i.imgur.com/eUdZb89.jpg)
 
 ## Author
 Domenico Luciani aka DLion
