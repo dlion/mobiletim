@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-var request = require('request');
+var request = require('request'),
+    colors  = require('colors/safe');
 
 request({
   url: "https://www.tim.it/authfe/loginTIMinternet.do?urlOk=https://www.119selfservice.tim.it/area-clienti-119/rest/promozioniAttivePP/json",
@@ -17,9 +18,9 @@ request({
       var i, j;
       if(!err) {
         for(i in req.promozioniList) {
-          console.log("-- "+req.promozioniList[i].promotionName+" --");
+          console.log("-- "+colors.green(req.promozioniList[i].promotionName)+" --");
           for(j in req.promozioniList[i].caratteristiche) {
-            console.log(req.promozioniList[i].caratteristiche[j].descrizione+ "-- End Validity: "+req.promozioniList[i].caratteristiche[j].endvalidity);
+            console.log(colors.blue(req.promozioniList[i].caratteristiche[j].descrizione)+ "-- End Validity: "+colors.red(req.promozioniList[i].caratteristiche[j].endvalidity));
           }
         }
       } else {
